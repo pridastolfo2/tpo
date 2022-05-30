@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Ariel D Adler</title>
+    <link rel="stylesheet" href="principal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/e15e8c34af.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="1111.ico">
+</head>
+<main>
+    <div class="padre">
+        <header class="header">
+            <nav class="nav">
+            <div class="inicio"><a href="principal.html">Inicio</a>
+            </div>
+            <div class="bio"><a  href="bio.html"> Biografía </a></div>
+            <div class="contacto"><a  href="formulario.html"> Contacto </a></div>
+        </nav>
+        <h1 class="animate__animated animate__fadeIn">ARIEL D ADLER</h1>
+    
+        </header></div>
+    <br><br>
+    
+    <form action="" class="formulario" id="formulario">
+        <div class="formulario__grupo" id="grupo__apellido">
+            <label for="apellido" class="formulario__label">Apellido</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="Apellido">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error"></p>
+        </div>
+
+        
+        <div class="formulario__grupo" id="grupo__nombre">
+            <label for="nombre" class="formulario__label">Nombre</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nombre">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error"></p>
+        </div>
+
+       
+        <!-- Grupo: Correo Electronico -->
+        <div class="formulario__grupo" id="grupo__mail">
+            <label for="mail" class="formulario__label">Correo Electrónico</label>
+            <div class="formulario__grupo-input">
+                <input type="email" class="formulario__input" name="mail" id="mail" placeholder="mail@mail.com">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error"></p>
+        </div>
+
+        <!-- Grupo: Teléfono -->
+        <div class="formulario__grupo" id="grupo__telefono">
+            <label for="telefono" class="formulario__label">Teléfono</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="113334444">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error"></p>
+        </div>
+
+        <fieldset>
+            <legend>¿Querés colaborar?</legend>
+            <p>
+                <input type="checkbox" name="estudio" value="diseñog">Si <br>
+                <input type="checkbox" name="estudio" value="diseñoa">No <br>
+                <input type="checkbox" name="estudioi">Tal vez
+
+            </p><br>
+        </fieldset>
+
+        <!-- Grupo: Terminos y Condiciones -->
+        <div class="formulario__grupo" id="grupo__terminos">
+            <label class="formulario__label">
+                <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                Acepto los Terminos y Condiciones
+            </label>
+        </div>
+
+        <div class="formulario__mensaje" id="formulario__mensaje">
+            <p><i class="fas fa-exclamation-triangle"></i> <b></b></p>
+        </div>
+
+        <div class="formulario__grupo formulario__grupo-btn-enviar">
+            <button type="submit" class="formulario__btn">Enviar</button>
+            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>        </div>
+        
+    </form>
+</main>
+
+<script src="js/formulario.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <div class="footer">
+        <footer>   
+            <br><br><br><br> 
+        <div class="reds">    
+        <a  href="https://twitter.com" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+        <a  href="https://es-la.facebook.com/ariel.adler.18" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i></i></a>
+        <a  href="https://ariel-adler.tumblr.com/" target="_blank"> <i class="fa fa-tumblr" aria-hidden="true"></i></i></a>
+        <a  href="https://www.instagram.com/arieladll/?hl=es" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></i></a>
+        <a  href="https://ar.linkedin.com/in/ariel-d-adler-959529a2" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i></i></a>
+        </div>
+        
+        
+        <p class="der">Derechos reservados 2022©</p>
+        <br>    
+            
+        </footer> 
+            </div>
+    </body>
+</html>
